@@ -1,9 +1,9 @@
 <resources>
-    <string name="default_web_client_id">100772548383-uk4ln6ksoc6bk3d8h50ptss2ghem9es1.apps.googleusercontent.com</string>
-    <string name="firebase_database_url">https://nimir-e76fc.firebaseio.com</string>
-    <string name="project_id">nimir-e76fc</string>
-    <string name="google_api_key">AIzaSyBXXUQpbtxm4ar_Yy_zsOWsKORDR8tDyps</string>
-    <string name="google_app_id">1:100772548383:android:6e3a6c178d87c4e0f72a2a</string>
-    <string name="google_storage_bucket">nimir-e76fc.appspot.com</string>
-    <string name="gcm_defaultSenderId">100772548383</string>
+    <string name="default_web_client_id"></string>
+    <string name="firebase_database_url"></string>
+    <string name="project_id"></string>
+    <string name="google_api_key"></string>
+    <string name="google_app_id"></string>
+    <string name="google_storage_bucket"></string>
+    <string name="gcm_defaultSenderId"></string>
 </resources>
