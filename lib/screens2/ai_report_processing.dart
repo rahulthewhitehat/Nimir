@@ -152,17 +152,6 @@ Future<void> convertSpeechToText(String voiceFilePath) async {
   // Replace with your JSON content
   const jsonContent = '''
 {
-  "type": "service_account",
-  "project_id": "nimir-e76fc",
-  "private_key_id": "0f5aa4bd8112e81da9a98e7de4a3fb84ab60e7b6",
-  "private_key": "-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCj6CX82f1O4MmL\\n42UeT1EzmRMgYaCwxXeDeUuUlkWu6Ii1iCd3e0Psy/MsdGSca2ZfKVsPwbOUCoOi\\nkR2Pu0ZyK17AF/Nl+JAWlVyp6xp2245STCoJ1E+W1utnGwy20gJFh5HQMa4uiqZg\\nHr5QuXb03QZ7MTo/X8T81SrIcvjeoU1mqv5UFV9+kbh5eVvT8pSs/ZB1n5NehGDK\\n8+CEMkzrouopvIik4pra/g0jfo8muK1IfkE6LHRpU/tXfoS1JUNDzssq7ibY9m9U\\nT9f+r/VnpM6zYQm7teNM2+Jv07AwDTv3gbnHe9wGXlUjTTKPMJy/JkKyFTt46+2f\\nrjL4c6udAgMBAAECggEAAIY9RjTQVFCbHyEdcV5hl8pVPv+boFUmumXzRvNqylIg\\nyyviAcYu2R1slrzR7D+FC/2O4VsGSbf1jy9AVUsNFk/AitlzbuUVA5gmEWkYzuk0\\nPbEpWpoHndJBiIqT8isef2hyn/mODBoSHtvvp0R19qHqY7nW7N2lPLCAkDRF9Y20\\nkzR3lcYQfj//bQo4GaMWiZkDfBYEq4CiArmtsygoLvWuHaai5J5w0WqD7BMYpqVb\\nofeIjfUMiSUH+MZ65YM3cTao4u9xvXqMsBtCaRx60RxTiuznfsicmkip5JhyZPCj\\n6eId+gER4ADulYH35TgYKRnVDPmjypZUVxSGKnHbZQKBgQDZnAX3GOSqdxkFFa34\\n0JV8k4KlkRc3IJYKl7yiiGeWgirKWdfPN/xYLsEwipiRlCZCxqXl6BTkwFj8wdBU\\neAXph/vLm8si5UAyqBotoJ/Ah2DxA94lZuC/cJgRvx92+Ngldj5m2Ro5NxNKjaqo\\nlyEmbo1wGbIGaylAVy9iCCAzEwKBgQDA0rurXP3p9i9uJ5XmPb2+8bxX2IXPMVn4\\nj5OEmEC7j3yCTsWJFp2wVFOlvyInZpsHniHLDWMRQVGK085VsPpef98WCAR643w9\\nf+lVQoWCTFncKEAJv73gbTyuL625WpLgJG46xTfc65yJb+yG5CFQOdBlWUYwTLJ8\\nWcFDV6zMjwKBgFHIF13UFywRcm+8xBM8oNGexnze2HC5aGo2uIgE55li9h3yQe74\\nxXeGqshJbilYGkECUxria+fEei0T0e3M5bvshS7yMBe/PK9NCfmX4jIDLuWlZHl9\\n/n00HZKd139o6iK6G52ffgF+t1tPfpG5qpW8+p7kqUlMQMaTfZVEJIXNAoGAPd2f\\nDu0oHn+5WgtjYdrfXTssJbc3v3FjH4fZWcqLwmHYHeruH/zcnS2BJQW9DI00Im6P\\nAxoJdgjSA8vPQNkmi1lVlzj9Tvxb6VN35r4QHe0nS6ayXS5i2nXR6UUs5PJ1e2rU\\n3xBVyxDhSYtahTD+q0HRZiMNjQOepJ0bj+K6c2sCgYEAiVdrJlTZuZRtLJ3jYlpx\\nOAej4lSOu16yGL41agMQd1FzQ3jyBYfqSuuO6Ymi9LTTAjBBgk/ykZ+lOV157wlv\\nOThVPV7WbOdKRFYg38jXPxjf+FlyfT4c/XDNfih8cxuPUG6qQz1AGL/dR3aBvATt\\nJRGMZPQp0iwgH7BG1uXJQi8=\\n-----END PRIVATE KEY-----\\n",
-  "client_email": "speech-to-text-service@nimir-e76fc.iam.gserviceaccount.com",
-  "client_id": "114606926417960703556",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/speech-to-text-service%40nimir-e76fc.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
 }
 ''';
 
@@ -589,7 +578,7 @@ String _interpretScore(int score) {
   return "Highly Negative";
 }
 
-const String _apiKey = "AIzaSyBHb0C2d4pQDHImpKV4GwKdGTPEuUn3xF0";
+const String _apiKey = "";
 
 Future<void> generateDetailedReport({
   required String description,
