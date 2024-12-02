@@ -78,10 +78,6 @@ Below are some example screenshots of the **Nimir** app, giving you an idea of t
 
 ## Screenshots
 
-## Screenshots
-
-## Screenshots
-
 ### **1. User Login & Dashboard Screens**  
 <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
    <img src="./screenshots/login.png" width="30%" style="border: 2px solid #ddd; padding: 5px;">
