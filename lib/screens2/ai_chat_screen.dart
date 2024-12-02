@@ -16,7 +16,7 @@ class _AiChatScreenState extends State<AiChatScreen> {
   final List<Map<String, String>> _messages = [];
   bool _isTyping = false;
 
-  final String _apiKey = "AIzaSyBHb0C2d4pQDHImpKV4GwKdGTPEuUn3xF0";
+  final String _apiKey = "";
 
   // AES Key and IV
   final encrypt.Key _aesKey = encrypt.Key.fromUtf8(
